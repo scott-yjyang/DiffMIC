@@ -39,13 +39,13 @@ dataset/aptos/
 
      aptos_test.pkl
 
-.pkl file contains the list of data, each element in the list is a dictionary with the format as {'img_root':image_path,'label':label}
+.pkl file contains the list of data whose element is a dictionary with the format as ``{'img_root':image_path,'label':label}``
 
 ## Run
 
-2. For Training! run: ``bash training_scripts/run_isic.sh`` where this command line is used ``python main.py --device ${DEVICE_ID} --thread ${N_THREADS} --loss ${LOSS} --config configs/${TASK}.yml --exp $EXP_DIR/${MODEL_VERSION_DIR} --doc ${TASK} --n_splits ${N_SPLITS}``
+2. For Training! run: ``bash training_scripts/run_isic.sh`` where the first command line is used ``python main.py --device ${DEVICE_ID} --thread ${N_THREADS} --loss ${LOSS} --config configs/${TASK}.yml --exp $EXP_DIR/${MODEL_VERSION_DIR} --doc ${TASK} --n_splits ${N_SPLITS}``
 
-3. For Testing! run: ``bash training_scripts/run_isic.sh`` where this command line is used ``python main.py --device ${DEVICE_ID} --thread ${N_THREADS} --loss ${LOSS} --config $EXP_DIR/${MODEL_VERSION_DIR}/logs/ --exp $EXP_DIR/${MODEL_VERSION_DIR} --doc ${TASK} --n_splits ${N_SPLITS} --test --eval_best``
+3. For Testing! run: ``bash training_scripts/run_isic.sh`` where the second command line is used ``python main.py --device ${DEVICE_ID} --thread ${N_THREADS} --loss ${LOSS} --config $EXP_DIR/${MODEL_VERSION_DIR}/logs/ --exp $EXP_DIR/${MODEL_VERSION_DIR} --doc ${TASK} --n_splits ${N_SPLITS} --test --eval_best``
 
 The configuration for each of the above listed tasks (including data file location, training log and evaluation result directory settings, neural network architecture, optimization hyperparameters, etc.) are provided in the corresponding files in the ``configs`` directory
 
