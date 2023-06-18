@@ -1,11 +1,11 @@
 # DiffMIC
 
-DiffMIC is a project to adapt Diffusion Probabilistic Models[DDPM](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) to general medical image classification by dual-granularity conditional guidance.
+DiffMIC is a project to adapt Diffusion Probabilistic Models(https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) to general medical image classification by dual-granularity conditional guidance.
 The method is elaborated in the paper [DiffMIC: Dual-Guidance Diffusion Network for Medical Image Classification](https://arxiv.org/abs/2303.10610).
 
 ## A Quick Overview 
 
-<img width="880" height="380" src="https://github.com/scott-yjyang/DiffMIC/blob/main/figs/framework.png">
+<img width="800" height="400" src="https://github.com/scott-yjyang/DiffMIC/blob/main/figs/framework.png">
 
 ## News
 - 23-06-05. This paper has been early accepted by MICCAI 2023. Code is coming and welcome to taste it.
