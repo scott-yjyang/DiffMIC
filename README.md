@@ -60,7 +60,7 @@ The configuration for each of the above listed tasks (including data file locati
 - [ ] configuration
 
 
-## Be a part of DiffMIC ! Authors are YOU !
+## Be a part of DiffMIC !
 Welcome to contribute to DiffMIC. Any technique can improve the performance or speed up the algorithm is appreciated🙏. I am writting DiffMIC V2, aiming at top journals. I'm glad to list the contributors as my co-authors🤗.
 
 
