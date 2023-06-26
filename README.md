@@ -47,21 +47,22 @@ dataset/aptos/
 
 3. For Testing! run: ``bash training_scripts/run_isic.sh`` where the second command line is used ``python main.py --device ${DEVICE_ID} --thread ${N_THREADS} --loss ${LOSS} --config $EXP_DIR/${MODEL_VERSION_DIR}/logs/ --exp $EXP_DIR/${MODEL_VERSION_DIR} --doc ${TASK} --n_splits ${N_SPLITS} --test --eval_best``
 
-The configuration for each of the above listed tasks (including data file location, training log and evaluation result directory settings, neural network architecture, optimization hyperparameters, etc.) are provided in the corresponding files in the ``configs`` directory
+The configuration for each of the above-listed tasks (including data file location, training log and evaluation result directory settings, neural network architecture, optimization hyperparameters, etc.) are provided in the corresponding files in the ``configs`` directory
 
 
 ### TODO LIST
 
 - [ ] Release PMG2000 dataset and config
-- [ ] Release APTOS2019, HAM10000 dataloaders and configs
+- [ ] Release HAM10000, APTOS2019 dataloaders and configs
 - [ ] Release training scripts
 - [ ] Release evaluation
+- [ ] Upload the checkpoints of HAM10000, APTOS2019
 - [ ] Deploy on HuggingFace
 - [ ] configuration
 
 
 ## Be a part of DiffMIC !
-Welcome to contribute to DiffMIC. Any technique can improve the performance or speed up the algorithm is appreciated🙏. I am writting DiffMIC V2, aiming at top journals. I'm glad to list the contributors as my co-authors🤗.
+Welcome to contribute to DiffMIC. Any technique that can improve the performance or speed up the algorithm is appreciated🙏. I am writing DiffMIC V2, aiming at top journals. I'm glad to list the contributors as my co-authors🤗.
 
 
 ## Thanks
