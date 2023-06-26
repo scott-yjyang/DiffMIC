@@ -53,9 +53,9 @@ The configuration for each of the above-listed tasks (including data file locati
 ### TODO LIST
 
 - [ ] Release PMG2000 dataset and config
-- [ ] Release HAM10000, APTOS2019 dataloaders and configs
-- [ ] Release training scripts
-- [ ] Release evaluation
+- [x] Release HAM10000, APTOS2019 dataloaders and configs
+- [x] Release training scripts
+- [x] Release evaluation
 - [ ] Upload the checkpoints of HAM10000, APTOS2019
 - [ ] Deploy on HuggingFace
 - [ ] configuration
