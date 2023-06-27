@@ -85,7 +85,7 @@ class DCG(nn.Module):
         output = torch.ones((batch_size, num_crops, crop_h, crop_w))
         if self.experiment_parameters["device_type"] == "gpu":
             device = torch.device("cuda:{}".format(self.experiment_parameters["gpu_number"]))
-            output = output.cuda().to(device)
+            output = output.to(device)
         for i in range(batch_size):
             for j in range(num_crops):
                 tools.crop_pytorch(x_original_pytorch[i, 0, :, :],
