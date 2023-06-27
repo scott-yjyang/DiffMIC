@@ -54,6 +54,7 @@ The configuration for each of the above-listed tasks (including data file locati
 
 - [ ] Release PMG2000 dataset and config
 - [x] Release HAM10000, APTOS2019 dataloaders and configs
+- [ ] Dataset splits
 - [x] Release training scripts
 - [x] Release evaluation
 - [ ] Upload the checkpoints of HAM10000, APTOS2019
