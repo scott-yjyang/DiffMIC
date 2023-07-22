@@ -58,7 +58,6 @@ The configuration for each of the above-listed tasks (including data file locati
 - [x] Release training scripts
 - [x] Release evaluation
 - [ ] Upload the checkpoints of HAM10000, APTOS2019
-- [ ] Deploy on HuggingFace
 - [ ] configuration
 
 
